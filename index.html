@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assessment 2 - Avatar creator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="preview.css"type="text/css" rel="stylesheet" /> 
+    <link href="control.css"type="text/css" rel="stylesheet" /> 
+    
+    
+  </head>
+  
+  <body>
+    <div id="preview">
+      <img id="hair" class="items" src="img/hair1.png" />
+      <img id="eyes" class="items" src="img/eyes1.png" />
+      <img id="nose" class="items" src="img/nose1.png" />
+      <img id="mouth" class="items" src="img/mouth1.png" />
+    </div>
+      
+    <div id='controls'>
+        <input type ="range" min="0.0" max ="70.0" step="0.1" value="60.0" id="range1" class = 'ranges'/>
+        
+        <input type ="range" min="0.0" max ="40.0" step="0.1" value="20.0" id="range2" class = 'ranges'/>
+        
+        <input type ="range" min="0.0" max ="30.0" step="0.1" value="20.0" id="range3" class = 'ranges'/>
+        
+        <input type ="range" min="0.0" max ="35.0" step="0.1" value="20.0" id="range4" class = 'ranges'/>
+        
+        <input type="color" id="color"> 
+        
+        <br>
+        
+        <input type='button' class='buttons' id='rangeB' value='Range'/>
+        <input type='button' class='buttons' id='numberB' value='Number'/>
+        
+        <input type='button' class='buttons' id='randomB' value='Random'/>
+        
+        <input type='button' class='buttons' id='add' value='+'/>  |
+        
+        <input type='button' class='last' id='auto' value='Auto Random Create'/>
+        
+        
+        <input type='button' class='last' id='stop' value='Stop Auto Create'/>
+    </div>
+	  
+    <div id='display'>
+		<div class='container'>
+			<div id='myrow' class='row'></div>
+		</div>
+    </div>
+    
+      <script src="preview.js"></script>
+      <script src="control.js"></script>
+      
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
+
+<!--
+
+       anchor tag   
+<a href="index.html"></a>
+<a href=""></a>
+
+
+
+   inputs    
+<input type="text" id="" placeholder="">
+<button type="submit" id="">Submit</button>
+<input type="number" min="" max="" value=""id="">
+
+<input type="radio" name="" id="" />
+<label for="">
+
+<input type='button' id='' value=''/>
+
+<input type="checkbox" id="">
+
+<input type="color" id="">
+
+<input type ="range" min="0.0" max ="1.0" step="0.1" value="1.0" id=""/>
+
+
+   tags   
+
+horizontal
+<hr />
+
+break
+<br />
+
+<img src='link_to_img' />
+
+                    bootstrap 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<div class='myownclass container'>
+<div id='myrow' class='row'></div>
+</div>
+<script>
+    myrowEl.appendChild(ndiv);
+    ndiv.className = 'mycol col-sm-2 col-md-4 col-lg-8 col-xl-12'; 
+    ndiv.style.width = '100px';
+
+</script>
+-->
